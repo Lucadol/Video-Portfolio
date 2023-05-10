@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+    background-color: #1F2039;
+}
+
+h1 {
+    color:#A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+}
+
+p,
+li,
+ul {
+    font-size: 1.1em;
+    color: #F9F8FF;
+}
+
+em {
+    color:#A5B4FC;
+    font-style:normal;
+}
+
+
+ul{
+    font-size: 1.1em;
+    font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+}
+
+span{
+    border-radius: 30px;
+}
+
+span:hover{
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1em;
+    font-family:'Manrope', sans-serif;
+    color: #242424;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 80px;
+}
+
+header,
+footer{
+    background-color: white;
+    padding: 20px 50px;
+}
+
+.entete:hover{
+    opacity: 1;
+}
+
+h2{
+    color: #F9F8FF;
+}
+
+.cta{
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 6px 6px 15px black;
+    padding: 20px 30px;
+}
+
+.cta:hover{
+    background:linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+.carre-contenu{
+    border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+  margin: auto;
+}
+
+.carre-contenu h2{
+  margin-top: 30px;
+}
+
+.carre-contenu ul{
+    margin-top: 30px;
+  }  
+
+.logo{
+    width: 25%;
+}
+
+.page_2{
+    width: 50%;
+    margin:auto;
+}
+
+footer,
+nav{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav a {
+    margin-left: 30px;
+  }
+
+.accueil-vidéos div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.accueil-vidéos h2{
+    text-align: center;
+    color: black;
+    margin-bottom: 80px;
+}
+
+.accueil-vidéos{
+    background-color: white;
+    padding: 80px;
+}
+
+.portfolio-vidéos{
+    background-color: white;
+}
+
+.portfolio-vidéos h2{
+    margin-bottom: 80px;
+    color: black;
+}
+
+.photo{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    border-width: 20%;
+    border-right-width: 20%;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.accueil-introduction{
+    display: flex;
+    flex-direction : row;
+    width: 60%;
+    align-items: flex-start;
+    margin: auto;
+    }
+
+.accueil-introduction p{
+    margin-bottom: 30px;
+}
+
+.accueil-introduction h1 {
+    margin-bottom: 15px;
+}
+
+.accueil-introduction div {
+    padding-right: 80px;
+  }
+
+.tour-europe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+}
+
+.trottoir{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+    gap : 15px;
+}
+
+.clip{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+}
+
+.tour-europe img,
+.trottoir img,
+.clip img{
+    width: 500px;
+    height:auto;
+    object-fit:cover;
+}
+
+.lien-conteneur-photo {
+    position: relative;
+  }
+
+.photo-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+  }
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+td,
+th{
+    border: 1px solid #8e86b5;
+    color: white;
+    padding: 15px;
+    white-space: nowrap;
+}
+
+td{
+    padding: 80px;
+}
+
+caption{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 2em;
+}
+
+.tableau h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%
+
+}
+
+input{
+    padding: 10px;
+    border: 1px 
+}
+
+fieldset {
+    border: none;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.formulaire{
+    padding:0px
+}
+
+label {
+    margin-bottom: 10px;
+  }
+  
+  input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    color: white;
+  }
+  
+  .form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+  }
+
+  .section-formulaire h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+@media screen and (max-width: 996px) {
+    .accueil-introduction {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .accueil-introduction div {
+        padding-right: 0;
+        text-align: center;
+        order: 2;
+      }
+    
+      .accueil-introduction img {
+        order: 1;
+        margin-bottom: 20px;
+        width: 100%;
+      }
+    
+      .accueil-vidéos {
+        padding: 20px;
+      }
+
+      .cta {
+        align-items: center;
+      justify-content: center;
+      }
+    
+      .accueil-vidéos div {
+        flex-direction: column;
+        align-items: center;
+      justify-content: center;
+      }
+    
+      .section-formulaire {
+        padding: 50px 20px;
+      }
+    
+      .form-nom-email {
+        flex-direction: column;
+        gap: 0;
+      }
+    }
+
+@media screen and (max-width: 996px) {
+        .tableau {
+          display: none;
+        }
+      }
+
+@media screen and (max-width: 996px) {
+        .tour-europe {
+          grid-template-columns: 1fr;
+          gap: 15px;
+          align-items: center;
+          justify-content: center;
+        }
+      
+        .trottoir {
+          grid-template-columns: 1fr;
+          gap: 15px;
+        }
+
+        .clip {
+            grid-template-columns: 1fr;
+            gap: 15px;
+          }
+        }
